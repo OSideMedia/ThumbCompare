@@ -2,6 +2,8 @@
 
 ThumbCompare is a macOS app that compares your thumbnail/title against recent uploads from competitor YouTube channels in a feed-style grid, then exports a PNG snapshot for quick side-by-side review.
 
+[Changelog](CHANGELOG.md)
+
 ## What It Does
 - Loads your thumbnail (A/B supported), title, and channel info.
 - Fetches recent videos from competitor handles.
