@@ -1,0 +1,30 @@
+.DS_Store
+
+# Xcode and Swift build artifacts
+DerivedData/
+.build/
+build/
+Build/
+*.xcresult
+
+# User-specific Xcode state
+*.xcworkspace/xcuserdata/
+*.xcodeproj/xcuserdata/
+*.xcodeproj/project.xcworkspace/xcuserdata/
+*.pbxuser
+*.mode1v3
+*.mode2v3
+*.perspectivev3
+
+# SwiftPM
+Package.resolved
+
+# Local secrets/config
+.env
+.env.*
+*.secret
+secrets.*
+
+# Local app export artifacts
+dist/
+exports/
