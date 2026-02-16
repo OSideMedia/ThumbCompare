@@ -8,6 +8,15 @@ ThumbCompare is a macOS app that compares your thumbnail/title against recent up
 - Filters for feed-friendly videos (non-Shorts with usable thumbnails).
 - Displays a mixed comparison feed and lets you export it as PNG.
 
+## Screenshots
+Main compare view:
+
+![Compare View](docs/images/compare-view.png)
+
+Export example:
+
+![Export Example](docs/images/export-example.png)
+
 ## API Key Setup (Required)
 You must use your own YouTube Data API v3 key.
 
@@ -38,6 +47,7 @@ The key is stored locally in macOS Keychain via `KeychainStore`.
 - `ThumbCompare/Services/YouTubeAPIService.swift`
 - `ThumbCompare/Services/ImageCache.swift`
 - `ThumbCompare/Utils/KeychainStore.swift`
+- `docs/images/`
 
 ## Git secret scan hook
 - This repo includes a pre-commit secret scanner in `scripts/check-secrets.sh`.
